@@ -1,0 +1,306 @@
+.index-Container {
+    background: rgb(235, 232, 232);
+    display: grid;
+    grid-template-columns: 25rem auto 30rem;
+    position: relative;
+    height: 100%;
+}
+
+.Menu {
+    margin-left: 10px;
+    padding-top: 20px;
+    display: flex;
+    gap: 1rem;
+    flex-direction: column;
+    /* margin:2rem; */
+    /* text-align:center; */
+    width: 100%;
+    /* color:rgb(101, 101, 238);  */
+}
+
+.Menu-list {
+    display: flex;
+    gap: 1rem;
+}
+
+.overallFiled {
+    width: 450px;
+    position: absolute;
+    padding: 1rem;
+    /* margin:auto; */
+    top: 200px;
+    /* height:max-content; */
+}
+
+.field {
+    /* width:100%; */
+    background: #fff;
+    border-radius: .4rem;
+    box-shadow: 2px 2px 2px 2px grey;
+    margin-top: 100px;
+    margin-left: -60px;
+}
+
+.sub-Field {
+    width: 100%;
+    display: flex;
+    height: 100%;
+    flex-wrap: wrap;
+}
+
+.hr {
+    width: 60%;
+    margin-left: 0;
+}
+
+.imgField {
+    width: 21.5%;
+    /* object-fit:cover;
+    object-position:center; */
+    height: 200px;
+    border-radius: 2rem;
+    margin: 3px;
+    padding: .3rem;
+    position: relative;
+    display: flex;
+    justify-content: left;
+    align-content: top;
+    align-items: top;
+    flex-wrap: wrap;
+}
+
+.secondField {
+    /* width:100%; */
+    background: #fff;
+    margin-top: 2rem;
+    border-radius: .2rem;
+    box-shadow: 2px 2px 2px 2px grey;
+    margin-left: -60px;
+
+}
+
+.imgs {
+    width: 100%;
+    height: 100%;
+    border-radius: 2rem;
+
+}
+
+video {
+    width: 100%;
+    height: 100%;
+}
+
+.badge {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    border: royalblue 2px solid;
+    z-index: 1000;
+    border-radius: 40px;
+    /* top:0;
+    left:4px; */
+
+}
+
+.inputForStatus {
+    width: 300px;
+    padding: .7rem;
+    border-radius: 2rem;
+    background: rgb(235, 232, 232);
+    border: none;
+
+}
+
+.h3 {
+    display: flex;
+    justify-content: space-around;
+    align-items:baseline;
+    align-content:baseline;
+    padding:1rem;
+}
+/* .hrstory{
+    width:100%;
+} */
+.badgeForStatus {
+    width: 30px;
+    height: 30px;
+    border: royalblue 2px solid;
+    border-radius: 40px;
+
+}
+
+.secondField {
+    border-radius: .4rem;
+    padding: .6rem;
+}
+
+.statusField {
+    display: flex;
+    justify-content: space-around;
+    height: 100%;
+    margin-top: 15px;
+}
+
+hr {
+    width: 100%;
+    background: rgb(235, 232, 232);
+
+}
+
+/* .field-status{
+    width:100%;
+padding:5px;
+border-radius:1rem;
+box-shadow:2px 2px 2px 2px grey;
+} */
+
+#PostField {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    align-content: baseline;
+    /* margin:4px; */
+    padding: 1px;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.colorIcons{
+    color: #6565EE;
+    font-weight: bold;
+    cursor:pointer;
+    
+}
+
+/* .r{
+    color:red;
+} */
+
+
+.last {
+    margin-left: 90px;
+}
+
+.flexSponsor p {
+    padding-top: 50px;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.nsor {
+    display: flex;
+
+}
+
+.sponsoredImg {
+    width: 150px;
+    height: 150px;
+    /* float:left; */
+    margin: 10px;
+}
+
+.sponsoredImg img {
+    width: 100%;
+    height: 100%;
+    border-radius: 1rem;
+}
+
+.ponsor {
+    display: flex;
+    clear: both;
+}
+
+.exSponsor {
+    width: 150px;
+    height: 150px;
+    gap: 10px;
+    margin: 10px;
+
+}
+
+.exSponsor img {
+    width: 100%;
+    height: 100%;
+    border-radius: 1rem;
+}
+
+.flexFriend {
+    display: flex;
+    gap: 1rem;
+}
+
+.badgeForfriend {
+    width: 50px;
+    height: 50px;
+    border: royalblue 1px solid;
+    border-radius: 40px;
+}
+
+.h3flex {
+    display: flex;
+    justify-content: space-around;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.badgeForfriend img {
+    width: 100%;
+    height: 100%;
+    border-radius: 40px;
+}
+
+.friendRequestButton {
+    width: 80%;
+    margin-left: 70px;
+    display: flex;
+    gap: 1rem;
+}
+
+.confirm {
+    width: 40%;
+    padding: 10px;
+    border-radius: .5rem;
+    background: rgb(101, 101, 238);
+    border: none;
+    font-weight: bold;
+    color: #fff;
+}
+
+.delete {
+    width: 40%;
+    padding: 10px;
+    border-radius: .5rem;
+    background: rgb(231, 219, 219);
+    border: none;
+    font-weight: bold;
+    color: #111;
+}
+
+.friends{
+     /* width:100%; */
+     background: #fff;
+     margin-top: 2rem;
+     border-radius: .2rem;
+     box-shadow: 2px 2px 2px 2px grey;
+     margin-left: -60px;
+     font-size: 12px;
+     font-weight: bold;
+     padding:.3rem;
+}
+.friendsField{
+    display:flex;
+    gap:1rem;
+}
+
+a{
+    color:black;
+        font-size: 12px;
+    font-weight: bold;
+    text-decoration:none;
+    color:grey;
+}
+
+a:hover{
+    text-decoration:underline;    
+}

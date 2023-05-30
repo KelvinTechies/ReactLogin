@@ -1,0 +1,90 @@
+.nav {
+    background: white;
+    height: 50px;
+    width: 100%;
+    box-shadow: 2px 2px 2px 2px grey;
+    /* background:blue; */
+
+}
+
+.h1 {
+    color: rgb(101, 101, 238);
+}
+
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+    /* flex-wrap:wrap;  */
+    height: 100%;
+    /* background:red; */
+    width: 100%
+}
+
+.navIcons {
+    text-align: center;
+    padding: .5rem;
+    color: black;
+    position: relative;
+
+}
+
+.search-form {
+    width: 10%;
+}
+
+.img {
+    position: relative;
+}
+
+.im {
+    position: absolute;
+}
+
+.search {
+    width: 500px;
+    border-radius: 1rem;
+    background: whitesmoke;
+    padding: 10px;
+    border: 1px solid grey;
+}
+
+.search::placeholder {
+    font-weight: 600;
+    font-family: arial;
+}
+
+.rounded-circle {
+    width: 40px;
+    background: rgb(235, 232, 232);
+    height: 40px;
+    border-radius: 100px;
+}
+
+.rounded-circle button {
+    width: 100%;
+    height: 100%;
+    border-radius: 100px;
+    border: none;
+    position: relative;
+}
+
+.flex {
+    display: flex;
+    gap: 5px;
+    margin-right: 10px
+}
+
+.rounded-circle span {
+    position: absolute;
+    z-index: 1000;
+    top: -5px;
+    background: red;
+    padding: .5rem;
+    border-radius: 100%;
+    width: 10px;
+    height: 10px;
+    color: #fff;
+    font-size: 12px;
+}
